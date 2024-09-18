@@ -1,0 +1,116 @@
+/* Fade-in-up animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Existing styles for ChatBox */
+.chat-container {
+  width: 350px;
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+.chat-header .chat-icon {
+  font-size: 20px;
+  color: #1E90FF;
+}
+
+.chat-body {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.chat-message {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.chat-message.bot .message-text {
+  background: linear-gradient(135deg, #1e90ff, #00bfff);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px 15px 15px 0;
+  max-width: 70%;
+}
+
+.chat-message.user .message-text {
+  background: linear-gradient(135deg, #00bfff, #1e90ff);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px 15px 0 15px;
+  max-width: 70%;
+  margin-left: auto;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #e0e0e0;
+  border-radius: 0 0 25px 25px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+}
+
+.chat-input .send-button {
+  background-color: #1E90FF;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.chat-input .send-button:hover {
+  background-color: #00bfff;
+}
+
+.chatbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensures the ChatBox is on top */
+}
+
+.close-button {
+  width: 80px;
+  height: 10px;
+  margin-bottom: 5px;
+  background-color: #00bfff;
+  border-color: #e0e0e0;
+}

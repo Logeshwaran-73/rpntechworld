@@ -1,0 +1,429 @@
+.body {
+  margin-top: 400px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #000000;
+  /* margin-bottom: 10px;
+  padding-bottom: 100px; */
+}
+
+.page-container {
+  position: relative;
+  width: 100%;
+  min-height: 400vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.carousel-container {
+  margin-top: 0px;
+  position:absolute;
+  width: 100%;
+  height: 120vh;
+  z-index: 1;
+  background-size: 200px;
+}
+
+.carousel-container .carousel .slide img {
+  width: 100%;
+  height:101.5vh;
+  object-fit:cover;
+}
+
+.carousel .control-dots {
+  width: 100px;
+  height: 40px;
+}
+
+.carousel .carousel-status {
+  display: none;
+}
+
+.content-overlay {
+  z-index: 2;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(51, 51, 51, 0.8);
+  padding: 15px 20px;
+  z-index: 3;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  padding-right: 90px;
+}
+
+.nav-item {
+  margin-right: 20px;
+  color: #ccc;
+  padding-right: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: lighter;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.rpnn img {
+  height: 50px;
+}
+
+.faf {
+  color: white;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+.nav-link:hover {
+  /* background-color: #fefbfb; */
+  color: rgb(213, 211, 211);
+  font-size: 25px;
+  /* font-weight: 200px; */
+  transition-duration: 0.6s;
+}
+
+.section {
+  padding: 20px;
+  margin-top: 80px; /* Adjust this based on your navbar height */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.section h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.textee {
+  margin-top: 200px;
+  color: white;
+  margin-left: 100px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.textee1 {
+  margin-top: 2px;
+  color: white;
+  margin-left: 100px;
+  font-family: "Audiowide", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #368EEF;
+}
+
+.textee2 {
+  margin-top: 10px;
+  color: white;
+  margin-left: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: #d4d2d2;
+}
+
+.gg {
+  background-color: #003b78;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 100px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.ar {
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.textee3 {
+  margin-top: 150px; /* Added margin to avoid overlap */
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #d4d2d2;
+  letter-spacing: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-stop: 0.3s;
+}
+/* Add this to the existing CSS */
+
+/* Mobile devices (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+  .page-container {
+    flex-direction: column;
+    min-height: auto; /* Adjust height for smaller screens */
+    
+  }
+
+  .carousel-container {
+    height: 50vh; /* Reduce height for smaller screens */
+  }
+
+  .carousel-container .carousel .slide img {
+    height: 100vh;
+  }
+
+  .navbar {
+    flex-direction: column; /* Stack navbar items vertically */
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .navbar-nav {
+    padding-right: 0;
+    margin-top: 10px;
+  }
+
+  .nav-item {
+    margin-right: 10px;
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .textee {
+    margin-top: 100px; /* Reduce top margin */
+    margin-left: 20px;
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .textee1 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
+
+  .textee2 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 14px; /* Adjust font size for smaller screens */
+    line-height: 18px;
+  }
+
+  .gg {
+    width: 90%; /* Make button width responsive */
+    margin-left: 5%;
+    font-size: 18px; /* Adjust font size */
+    padding: 10px 20px; /* Adjust padding */
+  }
+ 
+  .section {
+    margin-top: 60px; /* Adjust top margin */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .textee3 {
+    margin-top: 50px;
+    font-size: 14px; /* Adjust font size */
+    letter-spacing: 3px; /* Adjust letter spacing */
+  }
+}
+
+@media only screen and (max-width: 642px) {
+  .page-container {
+    flex-direction: column;
+    min-height: auto; /* Adjust height for smaller screens */
+  }
+
+  .carousel-container {
+    height: 50vh; /* Reduce height for smaller screens */
+  }
+
+  .carousel-container .carousel .slide img {
+    height: 100vh;
+  }
+
+  .navbar {
+    flex-direction: column; /* Stack navbar items vertically */
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .navbar-nav {
+    padding-right: 0;
+    margin-top: 10px;
+  }
+
+  .nav-item {
+    margin-right: 10px;
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .textee {
+    margin-top: 100px; /* Reduce top margin */
+    margin-left: 20px;
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .textee1 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
+
+  .textee2 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 14px; /* Adjust font size for smaller screens */
+    line-height: 18px;
+  }
+
+  .gg {
+    width: 90%; /* Make button width responsive */
+    margin-left: 5%;
+    font-size: 18px; /* Adjust font size */
+    padding: 10px 20px; /* Adjust padding */
+  }
+ 
+  .section {
+    margin-top: 60px; /* Adjust top margin */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .textee3 {
+    margin-top: 50px;
+    font-size: 14px; /* Adjust font size */
+    letter-spacing: 3px; /* Adjust letter spacing */
+  }
+}
+
+/* Tablet devices (min-width: 601px) and (max-width: 1024px) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .page-container {
+    flex-direction: column;
+  }
+
+  .carousel-container {
+    height: 70vh; /* Adjust height for tablets */
+  }
+
+  .carousel-container .carousel .slide img {
+    height: 70vh;
+  }
+
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .textee {
+    margin-top: 150px; /* Adjust top margin */
+    margin-left: 50px;
+    font-size: 22px; /* Adjust font size */
+  }
+
+  .textee1 {
+    margin-left: 50px;
+    font-size: 35px; /* Adjust font size */
+  }
+
+  .textee2 {
+    margin-left: 50px;
+    font-size: 15px; /* Adjust font size */
+    line-height: 19px;
+  }
+
+  .gg {
+    width: 80%; /* Adjust button width */
+    margin-left: 10%;
+    font-size: 18px; /* Adjust font size */
+    padding: 12px 25px; /* Adjust padding */
+  }
+
+  .section {
+    margin-top: 70px;
+    padding: 15px; /* Adjust padding */
+  }
+
+  .textee3 {
+    /* margin-top: 80px;  */
+    font-size: 16px; /* Adjust font size */
+  }
+}
+
+/* Larger screens (min-width: 1025px) */
+@media only screen and (min-width: 1025px) {
+  /* Additional styles can be added here if needed for larger screens */
+}
+
+/* Existing styles */
+
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  z-index: 4; /* Ensure it's above other elements */
+  margin-right: 20px;
+}
+
+.navbar-nav.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px; /* Adjust based on the height of your navbar */
+  right: 20px;
+  background-color: rgba(51, 51, 51, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-nav.active .nav-item {
+  margin-right: 0;
+  margin-bottom: 15px;
+}
+
+/* Media queries for responsive design */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navbar-nav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+.gg .ar {
+  margin-left: 10px;
+  margin-top: 2px;
+  display: inline-block;
+  transition: transform 0.3s ease; /* Smooth transition for rotation */
+}
+
+.gg:hover .ar {
+  transform: rotate(90deg); /* Rotate arrow 90 degrees downwards on hover */
+}

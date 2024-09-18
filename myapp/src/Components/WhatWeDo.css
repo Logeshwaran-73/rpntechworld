@@ -1,0 +1,210 @@
+.what-we-do {
+  text-align: center;
+  background-color: #0a0a0a; 
+  background-image: url('../Components/icons/Whatwebg.png');
+  color: rgb(249, 248, 248);
+  margin-top: 48px;
+  padding-top: 30px;
+}
+
+.what-we-do h1 {
+  margin-top: 1px;
+  background: linear-gradient(120deg, #68B0FD, #024787);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 60px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin-right: 100px;
+}
+
+.service {
+  background: rgba(255, 255, 255, 0.1);
+  margin-left: 35px;
+  padding: 25px;
+  border-radius: 10px;
+  border: rgba(255, 255, 255, 0.577) solid 1px;
+  height: 200px;
+  width: 270px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  position: relative;
+  margin-top: 28px;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.service.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.service:nth-child(4) {
+  margin-top: 90px;
+  margin-left: 340px;
+  margin-right: 20px;
+}
+
+.service:nth-child(5) {
+  margin-top: 90px;
+  margin-right: 300px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+}
+
+.service-icon {
+  width: 120px;
+  height: 120px;
+  position: absolute; 
+  top: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.service h2 {
+  color: #ffffff;
+  margin-top: 50px; 
+  margin-bottom: 10px;
+}
+
+.service p {
+  color: #c4c4c4;
+}
+
+.chat-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.chat-icon {
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.chat-button:hover .chat-icon {
+  transform: scale(1.1);
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1024px) {
+  .what-we-do {
+    text-align: center;
+    color: rgb(249, 248, 248);
+    margin-top: -59px;
+    padding-top: 30px;
+  }
+  .services {
+    flex-direction: column;
+    justify-content:center;
+    margin-right: 52px;
+    margin-left: 10px;
+  }
+
+  .service {
+    margin-left: 30px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .service:nth-child(4), .service:nth-child(5) {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .what-we-do {
+    padding-top: 20px;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  .service {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .service-icon {
+    width: 100px;
+    height: 100px;
+    top: -60px;
+  }
+
+  .service h2 {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .what-we-do h1 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+  }
+
+  .services {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .service {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+  }
+
+  .service-icon {
+    width: 80px;
+    height: 80px;
+    top: -50px;
+  }
+
+  .service h2 {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .what-we-do h1 {
+    font-size: 1.5em;
+  }
+
+  .service {
+    padding: 10px;
+  }
+
+  .service-icon {
+    width: 70px;
+    height: 70px;
+    top: -45px;
+  }
+
+  .service h2 {
+    margin-top: 25px;
+    font-size: 1.2em;
+  }
+
+  .service p {
+    font-size: 0.9em;
+  }
+}
