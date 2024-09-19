@@ -23,7 +23,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://Logeshwaran-73.github.io/rpntechworld/myapp",
+  "homepage": "https://Logeshwaran-73.github.io/rpntechworld",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
