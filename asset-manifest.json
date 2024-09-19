@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/rpntechworld/myapp/static/css/main.f23b97c9.css",
-    "main.js": "/rpntechworld/myapp/static/js/main.344521c7.js",
-    "static/js/453.64512fd7.chunk.js": "/rpntechworld/myapp/static/js/453.64512fd7.chunk.js",
-    "static/media/land2.jpg": "/rpntechworld/myapp/static/media/land2.d08021d936d3fffd567f.jpg",
-    "static/media/whychooseus.jpg": "/rpntechworld/myapp/static/media/whychooseus.82904e79a6a2eb89b406.jpg",
-    "static/media/land.jpg": "/rpntechworld/myapp/static/media/land.fad98255babc73156f7e.jpg",
-    "static/media/land1.png": "/rpntechworld/myapp/static/media/land1.7a2f3cfd5e33c1ba7453.png",
-    "static/media/Whatwebg.png": "/rpntechworld/myapp/static/media/Whatwebg.a418e8e95e96691583a8.png",
-    "static/media/Careerbgmi.png": "/rpntechworld/myapp/static/media/Careerbgmi.4e63702cc7105703d468.png",
-    "static/media/About.png": "/rpntechworld/myapp/static/media/About.a47179b586ac90fc0d36.png",
-    "static/media/apk-icon.png": "/rpntechworld/myapp/static/media/apk-icon.99b636f5663f7a12aad6.png",
-    "static/media/social-media-icon.png": "/rpntechworld/myapp/static/media/social-media-icon.c6c230c36dc180fa7f38.png",
-    "static/media/web-icon.png": "/rpntechworld/myapp/static/media/web-icon.d15148e1121056408a69.png",
-    "static/media/ux-icon.png": "/rpntechworld/myapp/static/media/ux-icon.4aecb2e2fe92ed999ccb.png",
-    "static/media/branding-icon.png": "/rpntechworld/myapp/static/media/branding-icon.81adc2a96e04a00d0c30.png",
-    "static/media/Career.png": "/rpntechworld/myapp/static/media/Career.6ef63045ed352a7f174f.png",
-    "index.html": "/rpntechworld/myapp/index.html",
-    "main.f23b97c9.css.map": "/rpntechworld/myapp/static/css/main.f23b97c9.css.map",
-    "main.344521c7.js.map": "/rpntechworld/myapp/static/js/main.344521c7.js.map",
-    "453.64512fd7.chunk.js.map": "/rpntechworld/myapp/static/js/453.64512fd7.chunk.js.map"
+    "main.css": "/rpntechworld/static/css/main.931b9a81.css",
+    "main.js": "/rpntechworld/static/js/main.32115e09.js",
+    "static/js/453.64512fd7.chunk.js": "/rpntechworld/static/js/453.64512fd7.chunk.js",
+    "static/media/land2.jpg": "/rpntechworld/static/media/land2.d08021d936d3fffd567f.jpg",
+    "static/media/whychooseus.jpg": "/rpntechworld/static/media/whychooseus.82904e79a6a2eb89b406.jpg",
+    "static/media/land.jpg": "/rpntechworld/static/media/land.fad98255babc73156f7e.jpg",
+    "static/media/land1.png": "/rpntechworld/static/media/land1.7a2f3cfd5e33c1ba7453.png",
+    "static/media/Whatwebg.png": "/rpntechworld/static/media/Whatwebg.a418e8e95e96691583a8.png",
+    "static/media/Careerbgmi.png": "/rpntechworld/static/media/Careerbgmi.4e63702cc7105703d468.png",
+    "static/media/About.png": "/rpntechworld/static/media/About.a47179b586ac90fc0d36.png",
+    "static/media/apk-icon.png": "/rpntechworld/static/media/apk-icon.99b636f5663f7a12aad6.png",
+    "static/media/social-media-icon.png": "/rpntechworld/static/media/social-media-icon.c6c230c36dc180fa7f38.png",
+    "static/media/web-icon.png": "/rpntechworld/static/media/web-icon.d15148e1121056408a69.png",
+    "static/media/ux-icon.png": "/rpntechworld/static/media/ux-icon.4aecb2e2fe92ed999ccb.png",
+    "static/media/branding-icon.png": "/rpntechworld/static/media/branding-icon.81adc2a96e04a00d0c30.png",
+    "static/media/Career.png": "/rpntechworld/static/media/Career.6ef63045ed352a7f174f.png",
+    "index.html": "/rpntechworld/index.html",
+    "main.931b9a81.css.map": "/rpntechworld/static/css/main.931b9a81.css.map",
+    "main.32115e09.js.map": "/rpntechworld/static/js/main.32115e09.js.map",
+    "453.64512fd7.chunk.js.map": "/rpntechworld/static/js/453.64512fd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f23b97c9.css",
-    "static/js/main.344521c7.js"
+    "static/css/main.931b9a81.css",
+    "static/js/main.32115e09.js"
   ]
 }
